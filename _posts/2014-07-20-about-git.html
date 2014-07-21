@@ -14,6 +14,22 @@ title: github一些简单命令
 	<li>git push origin gh-pages</li>
 </ol>
 
+windows本地jekyll安装
+<ol>
+	<li>
+	下载ruby
+	</li>
+	<li>gem install jekyll(这时候发生错误：Could not find a valid gem 'jekyll' (>= 0), here is why...)，解决方法是下载认证<a herf="http://curl.haxx.se/ca/cacert.pem">文件</a>，并放在ruby的bin目录下，貌似还需要等一会儿(30分钟内)才能够生效</li>
+	<li>
+		安装完以后，按照官网教程命令
+		<br/>
+		jekyll new my-site<br/>
+		cd my-site<br/>
+		jekyll serve<br/>
+		
+		但是发现命令行报错，在stackoverflow上查到了<a herf="http://stackoverflow.com/questions/16498287/jekyll-liquid-exception-cannot-load-such-file-yajl-2-0-yajl" target="_blank">解决办法</a>，就是使用 ruby v 1.9.3 并且安装rouge，即可~终于可以本地调试jekyll了~
+	</li>
+</ol>
 </p>
 
     <div id="disqus_thread"></div>
