@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: github一些简单命令
 ---
 <h2>{{ page.title }}</h2>
@@ -25,7 +25,7 @@ windows本地jekyll安装
 		<br/>
 		jekyll new my-site<br/>
 		cd my-site<br/>
-		jekyll serve<br/>
+		jekyll serve --watch(加上watch参数可以实时看到代码更新)<br/>
 		
 		但是发现命令行报错，在stackoverflow上查到了<a href="http://stackoverflow.com/questions/16498287/jekyll-liquid-exception-cannot-load-such-file-yajl-2-0-yajl" target="_blank">解决办法</a>，就是使用 ruby v 1.9.3 并且安装rouge，即可~终于可以本地调试jekyll了~
 	</li>

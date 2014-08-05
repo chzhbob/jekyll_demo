@@ -5,9 +5,9 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 30 Jul 2014 21:10:09 +0800</pubDate>
-    <lastBuildDate>Wed, 30 Jul 2014 21:10:09 +0800</lastBuildDate>
-    <generator>Jekyll v2.1.1</generator>
+    <pubDate>Tue, 05 Aug 2014 17:33:42 +0800</pubDate>
+    <lastBuildDate>Tue, 05 Aug 2014 17:33:42 +0800</lastBuildDate>
+    <generator>Jekyll v2.2.0</generator>
     
       <item>
         <title>github一些简单命令</title>
@@ -34,7 +34,7 @@ windows本地jekyll安装
 		&lt;br/&gt;
 		jekyll new my-site&lt;br/&gt;
 		cd my-site&lt;br/&gt;
-		jekyll serve&lt;br/&gt;
+		jekyll serve --watch(加上watch参数可以实时看到代码更新)&lt;br/&gt;
 		
 		但是发现命令行报错，在stackoverflow上查到了&lt;a href=&quot;http://stackoverflow.com/questions/16498287/jekyll-liquid-exception-cannot-load-such-file-yajl-2-0-yajl&quot; target=&quot;_blank&quot;&gt;解决办法&lt;/a&gt;，就是使用 ruby v 1.9.3 并且安装rouge，即可~终于可以本地调试jekyll了~
 	&lt;/li&gt;
