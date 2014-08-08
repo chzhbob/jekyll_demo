@@ -5,9 +5,35 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 05 Aug 2014 22:47:50 +0800</pubDate>
-    <lastBuildDate>Tue, 05 Aug 2014 22:47:50 +0800</lastBuildDate>
+    <pubDate>Fri, 08 Aug 2014 13:23:56 +0800</pubDate>
+    <lastBuildDate>Fri, 08 Aug 2014 13:23:56 +0800</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>测试iframe跨域</title>
+        <description>&lt;h2&gt;测试iframe跨域&lt;/h2&gt;
+&lt;p&gt;测试iframe跨域&lt;/p&gt;
+&lt;p&gt;07 Aug 2014&lt;/p&gt;        
+
+&lt;p&gt;
+
+&lt;iframe
+id=&quot;cnzz_frame&quot;
+width=&quot;100%&quot;
+height=&quot;1000px&quot;
+scrolling=&quot;no&quot; 
+frameborder=&quot;0&quot;
+src=&quot;http://tongji.cnzz.com/main.php?c=traf&amp;a=frame&amp;siteid=1000074443#!/1407400513243/traf/overview/1/1000074443/2014-08-07/2014-08-07&quot;
+
+style=&quot;margin-top: -160px;overflow:hidden;&quot;&gt;
+
+&lt;/iframe&gt;</description>
+        <pubDate>Thu, 07 Aug 2014 00:00:00 +0800</pubDate>
+        <link>http://yourdomain.com/2014/08/07/test-the-iframe/</link>
+        <guid isPermaLink="true">http://yourdomain.com/2014/08/07/test-the-iframe/</guid>
+        
+        
+      </item>
     
       <item>
         <title>github一些简单命令</title>
