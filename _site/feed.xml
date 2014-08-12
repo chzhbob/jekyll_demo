@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 Aug 2014 13:23:56 +0800</pubDate>
-    <lastBuildDate>Fri, 08 Aug 2014 13:23:56 +0800</lastBuildDate>
+    <title>chzhbob's blog</title>
+    <description>We Sing We Dance We Steal Things</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 12 Aug 2014 13:26:31 +0800</pubDate>
+    <lastBuildDate>Tue, 12 Aug 2014 13:26:31 +0800</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -29,8 +29,8 @@ style=&quot;margin-top: -160px;overflow:hidden;&quot;&gt;
 
 &lt;/iframe&gt;</description>
         <pubDate>Thu, 07 Aug 2014 00:00:00 +0800</pubDate>
-        <link>http://yourdomain.com/2014/08/07/test-the-iframe/</link>
-        <guid isPermaLink="true">http://yourdomain.com/2014/08/07/test-the-iframe/</guid>
+        <link>/2014/08/07/test-the-iframe/</link>
+        <guid isPermaLink="true">/2014/08/07/test-the-iframe/</guid>
         
         
       </item>
@@ -83,8 +83,8 @@ windows本地jekyll安装
     &lt;a href=&quot;http://disqus.com&quot; class=&quot;dsq-brlink&quot;&gt;comments powered by &lt;span class=&quot;logo-disqus&quot;&gt;Disqus&lt;/span&gt;&lt;/a&gt;
          </description>
         <pubDate>Mon, 21 Jul 2014 00:00:00 +0800</pubDate>
-        <link>http://yourdomain.com/2014/07/21/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">http://yourdomain.com/2014/07/21/welcome-to-jekyll/</guid>
+        <link>/2014/07/21/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">/2014/07/21/welcome-to-jekyll/</guid>
         
         
       </item>
