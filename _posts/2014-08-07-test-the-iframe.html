@@ -2,9 +2,7 @@
 layout: post
 title: 测试iframe跨域
 ---
-<h2>{{ page.title }}</h2>
-<p>测试iframe跨域</p>
-<p>{{ page.date | date_to_string }}</p>        
+     
 
 <p>
 
@@ -14,8 +12,12 @@ width="100%"
 height="1000px"
 scrolling="no" 
 frameborder="0"
-src="http://tongji.cnzz.com/main.php?c=traf&a=frame&siteid=1000074443#!/1407400513243/traf/overview/1/1000074443/2014-08-07/2014-08-07"
+src="http://localhost:4000/2014/08/18/about-iframe/"
 
 style="margin-top: -160px;overflow:hidden;">
 
 </iframe>
+
+<script>
+console.log(window.frames.cnzz_frame.getElementsByTagName('h1'));
+</script>

@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>chzhbob's blog</title>
+    <title>关于js操作iframe中元素的问题</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="We Sing We Dance We Steal Things">
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/2014/08/18/about-iframe/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/core.css">
@@ -35,33 +35,24 @@
 
     <section class="site-content">
 
-        <ul class="posts">
-    
-      <li>
-      	<a href="/2014/08/18/about-iframe/">
-      		<p class="post-title">关于js操作iframe中元素的问题</p>
-      		<span class="post-date">Aug 18, 2014</span>
-      	</a>
-      </li>
-    
-      <li>
-      	<a href="/2014/08/07/test-the-iframe/">
-      		<p class="post-title">测试iframe跨域</p>
-      		<span class="post-date">Aug 7, 2014</span>
-      	</a>
-      </li>
-    
-      <li>
-      	<a href="/2014/07/21/welcome-to-jekyll/">
-      		<p class="post-title">github一些简单命令</p>
-      		<span class="post-date">Jul 21, 2014</span>
-      	</a>
-      </li>
-    
-  </ul>
+      <div class="post">
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  <header class="post-header">
+    <h1>关于js操作iframe中元素的问题</h1>
+    <p class="meta">Aug 18, 2014</p>
+  </header>
 
+  <article class="post-content">
+  <p id="test">有段时间，异想天开地想通过iframe的方式将别人网站套在自己的页面内，但是由于有logo、footer等东西想要隐藏，因此尝试用js改变iframe中的DOM，但是均未成功。chrome给出这样的错误：<p>
+<blockquote>
+Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened.
+</blockquote>
+<p>字面上意思是异步加载的document无法被写入，但是做了另外一个实验，即iframe嵌套相同的是相同域名下的页面，即可正常访问，因此可以确定是<a target="_blank" href="http://en.wikipedia.org/wiki/Same_origin_policy">同源策略</a>的问题</p>
+
+
+  </article>
+
+</div>
       
     </section>
     <footer class="site-footer">
