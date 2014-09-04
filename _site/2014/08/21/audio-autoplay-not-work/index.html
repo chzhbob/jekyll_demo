@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>关于js操作iframe中元素的问题</title>
+    <title>audio在手机上无法自动播放的问题</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="We Sing We Dance We Steal Things">
-    <link rel="canonical" href="/2014/08/18/about-iframe/">
+    <link rel="canonical" href="/2014/08/21/audio-autoplay-not-work/">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/core.css">
@@ -36,18 +36,16 @@
       <div class="post">
 
   <header class="post-header">
-    <h1>关于js操作iframe中元素的问题</h1>
-    <p class="meta">Aug 18, 2014</p>
+    <h1>audio在手机上无法自动播放的问题</h1>
+    <p class="meta">Aug 21, 2014</p>
   </header>
 
   <article class="post-content">
-  <p id="test">有段时间，异想天开地想通过iframe的方式将别人网站套在自己的页面内，但是由于有logo、footer等东西想要隐藏，因此尝试用js改变iframe中的DOM，但是均未成功。chrome给出这样的错误：<p>
-<blockquote>
-Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened.
-</blockquote>
-<p>字面上意思是异步加载的document无法被写入，但是做了另外一个实验，即iframe嵌套相同的是相同域名下的页面，即可正常访问，因此可以确定是<a target="_blank" href="http://en.wikipedia.org/wiki/Same_origin_policy">同源策略</a>的问题</p>
+  <p>自己动手搞了一个婚纱照的展示页，希望加上背景音乐营造浪漫的气氛，但是却遇到一个很奇怪的问题：</p>
 
+<p>在手机端，audio标签autoplay属性不生效了，但是在PC上却一切正常</p>
 
+<p>于是求助stackoverflow~ 大家也遇到类似的问题。未完待续...</p>
   </article>
 
 </div>

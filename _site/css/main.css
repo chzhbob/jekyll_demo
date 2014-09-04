@@ -21,6 +21,12 @@ a,
 a:hover{
 	text-decoration:none;
 }
+.pull-left{
+	float:left;
+}
+.pull-right{
+	float:right;
+}
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
@@ -32,7 +38,7 @@ a:hover{
 }
 .site-banner .site-banner-content{
 	width:860px;
-	height:480px;
+	height:42px;
 	margin:0 auto;
 	padding-top:20px;
 }
@@ -106,9 +112,10 @@ a:hover{
 	display:block;
 	padding:25px;
 	border:1px solid #CCC;
+	background:url("../images/item-bg.png") right bottom no-repeat;
 }
 .posts li a:hover{
-	background:#FCFCFC;
+	background-color:#FCFCFC;
 }
 .post-title{
 	font-size:18px;
