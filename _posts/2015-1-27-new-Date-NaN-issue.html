@@ -1,0 +1,55 @@
+---
+layout: post
+title: IE new Date(str)返回NaN的坑
+description: 使用new Date(str)的时候，chrome和firefox都是正常返回，但是IE就会出现NaN。
+---
+
+<p>使用new Date(str)的时候，chrome和firefox都是正常返回，但是IE就会出现NaN。</p>
+
+<p>在stackoverflow寻找了一圈之后，发现遇到类似问题的人很多，已经有人写出通用的
+
+	<a href="https://gist.github.com/spazmodius/1477907" target="_blank">转换函数(需要翻墙)</a>了
+
+</p>
+
+{% highlight js %}  
+
+	function ParseISO8601(iso){
+	// 0 = whole string
+	// 1 = year
+	// 2 = month
+	// 3 = day
+	// 4 = whole time part
+	// 5 = hour
+	// 6 = minute
+	// 7 = second
+	// 8 = fractional (with dot)
+	// 9 = whole timezone (possibly Z)
+	// 10 = offset sign (+ or -)
+	// 11 = offset hours
+	// 12 = offset minutes (with colon)
+	// 13 = offset minutes
+	_rxISO : /^(\d{4})-(\d\d)-(\d\d)([T ](\d\d):(\d\d):(\d\d)(\.\d+)?(Z|([+-])(\d\d)(:(\d\d))?)?)?$/,
+		
+	var r = System.Date._rxISO.exec(iso);
+	if (!r)
+		return new Date(Date.parse(iso));
+
+	var year = Number(r[1]), month = Number(r[2]) - 1, day = Number(r[3]);
+	if (!r[4])
+		return new Date(year, month, day);
+
+	var hour = Number(r[5]), minute = Number(r[6]), second = Number(r[7]);
+	var ms = r[8]? Number((r[8] + "000").substr(1, 3)): 0;
+	if (!r[9])
+		return new Date(year, month, day, hour, minute, second, ms);
+
+	var oh = r[11]? Number(r[10]) + Number(r[11]): 0;
+	var om = r[13]? Number(r[10]) + Number(r[13]): 0;
+	hour -= oh;
+	minute -= om;
+	return new Date(Date.UTC(year, month, day, hour, minute, second, ms));
+}
+
+
+{% endhighlight %} 

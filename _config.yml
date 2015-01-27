@@ -9,3 +9,5 @@ description: "We Sing We Dance We Steal Things"
 markdown: kramdown
 permalink: pretty
 highlighter: pygments
+
+pygments:true
