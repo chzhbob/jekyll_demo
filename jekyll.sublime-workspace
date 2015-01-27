@@ -8,23 +8,7 @@
 	"buffers":
 	[
 		{
-			"file": "/D/My Documents/桌面/index.html",
-			"settings":
-			{
-				"buffer_size": 617,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/core.css",
-			"settings":
-			{
-				"buffer_size": 7829,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/My Documents/桌面/index.html2.html",
+			"file": "index.html",
 			"settings":
 			{
 				"buffer_size": 538,
@@ -32,10 +16,10 @@
 			}
 		},
 		{
-			"file": "_config.yml",
+			"file": "css/main.css",
 			"settings":
 			{
-				"buffer_size": 199,
+				"buffer_size": 1123,
 				"line_ending": "Windows"
 			}
 		}
@@ -96,15 +80,18 @@
 	},
 	"file_history":
 	[
+		"/F/jekyll_demo/index.html",
+		"/F/jekyll_demo/_config.yml",
+		"/D/My Documents/桌面/index.html2.html",
+		"/F/jekyll_demo/css/core.css",
+		"/D/My Documents/桌面/index.html",
 		"/F/jekyll_demo/_includes/head.html",
 		"/F/jekyll_demo/_posts/2014-08-22-IE8-string-bug.html",
 		"/F/jekyll_demo/_includes/leftbar.html",
 		"/F/jekyll_demo/_includes/banner.html",
-		"/F/jekyll_demo/index.html",
 		"/F/jekyll_demo/_includes/header.html",
 		"/F/jekyll_demo/css/main.css",
 		"/F/jekyll_demo/_layouts/index.html",
-		"/F/jekyll_demo/css/core.css",
 		"/F/jekyll_demo/css/normalize.css",
 		"/F/jekyll_demo/jekyll.sublime-project",
 		"/D/My Documents/桌面/le.js"
@@ -144,66 +131,12 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/D/My Documents/桌面/index.html",
-					"settings":
-					{
-						"buffer_size": 617,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								617
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/core.css",
-					"settings":
-					{
-						"buffer_size": 7829,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								897,
-								897
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/My Documents/桌面/index.html2.html",
+					"file": "index.html",
 					"settings":
 					{
 						"buffer_size": 538,
@@ -230,24 +163,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "_config.yml",
+					"buffer": 1,
+					"file": "css/main.css",
 					"settings":
 					{
-						"buffer_size": 199,
+						"buffer_size": 1123,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								199,
-								199
+								400,
+								400
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
