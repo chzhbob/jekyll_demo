@@ -5,9 +5,37 @@
     <description>We Sing We Dance We Steal Things</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 Aug 2014 13:32:14 +0800</pubDate>
-    <lastBuildDate>Mon, 18 Aug 2014 13:32:14 +0800</lastBuildDate>
+    <pubDate>Tue, 27 Jan 2015 10:54:32 +0800</pubDate>
+    <lastBuildDate>Tue, 27 Jan 2015 10:54:32 +0800</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>IE8字符串处理的两个BUG</title>
+        <description>&lt;p&gt;parseInt(&quot;08&quot;) = 0!&lt;/p&gt;
+
+&lt;p&gt;substr(-2,2)完全错误!&lt;/p&gt;
+
+&lt;p&gt;未完待续...&lt;/p&gt;</description>
+        <pubDate>Fri, 22 Aug 2014 00:00:00 +0800</pubDate>
+        <link>/2014/08/22/IE8-string-bug/</link>
+        <guid isPermaLink="true">/2014/08/22/IE8-string-bug/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>audio在手机上无法自动播放的问题</title>
+        <description>&lt;p&gt;自己动手搞了一个婚纱照的展示页，希望加上背景音乐营造浪漫的气氛，但是却遇到一个很奇怪的问题：&lt;/p&gt;
+
+&lt;p&gt;在手机端，audio标签autoplay属性不生效了，但是在PC上却一切正常&lt;/p&gt;
+
+&lt;p&gt;于是求助stackoverflow~ 大家也遇到类似的问题。未完待续...&lt;/p&gt;</description>
+        <pubDate>Thu, 21 Aug 2014 00:00:00 +0800</pubDate>
+        <link>/2014/08/21/audio-autoplay-not-work/</link>
+        <guid isPermaLink="true">/2014/08/21/audio-autoplay-not-work/</guid>
+        
+        
+      </item>
     
       <item>
         <title>关于js操作iframe中元素的问题</title>
