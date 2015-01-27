@@ -2,12 +2,26 @@
 <html>
   {% include head.html %}
     <body>
-    {% include banner.html %}
-    <section class="site-content">
-
-      {{ content }}
-      
-    </section>
-    {% include footer.html %}
+    	<section class="main-content wrap">
+    		<section class="leftBar">
+    			<ul class="leftBarNav list-unstyled">
+    				<li>
+    					<a><img src="./img/icon-blog.png"></a>
+    				</li>
+    				<li>
+    					<a><img src="./img/icon-note.png"></a>
+    				</li>
+    				<li>
+    					<a><img src="./img/icon-demo.png"></a>
+    				</li>
+    				<li>
+    					<a><img src="./img/icon-about.png"></a>
+    				</li>
+       			</ul>
+    		</section>
+    		<section class="content">
+    			{{ content }}
+    		</section>
+    	</section>
     </body>
 </html>

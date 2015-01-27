@@ -1,124 +1,66 @@
 /* Utility */
 html,body{
 	font-family:'微软雅黑';
+	color:#333;
+	background: url("../img/bg.png");
 }
 .wrap:before,
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
-.wrap {
-  max-width: 860px;
-  padding: 0 30px;
-  margin: 0 auto;
-  zoom: 1;
-}
-
-.list-unstyled {
-	padding-left: 0;
-	list-style: none;
-}
-
-a,
-a:hover{
-	text-decoration:none;
-}
+.wrap { zoom: 1;}
+.list-unstyled {padding-left: 0;list-style: none;}
+a,a:hover{text-decoration:none;}
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
-/* Site header */
-
-.site-banner {
-	background:#2c2b2b;
+/* Site left */
+.main-content{
+	
 }
-.site-banner .site-banner-content{
-	width:860px;
-	height:480px;
-	margin:0 auto;
-	padding-top:20px;
+.leftBar{
+	position: fixed;
+	background: #2a3237;
+	left: 0px;
+	top: 0px;
+	height:1000px;
+	width:30px;
+	padding: 0 9px;
 }
-.site-banner nav{
-	float:right;
-}
-.site-banner nav li{
-	float:left;
-}
-.site-banner nav li a{
-	display:block;
-	border:1px solid #2c2b2b;
-	color:#FFFFFF;
-	padding:5px 10px;
-	margin:0 5px;
-}
-.site-banner nav li.active a,
-.site-banner nav li a:hover{
-	color:#C59966;
-	border-color:#FFFFFF;
-}
-.site-banner hgroup{
-	text-align:center;
-	padding-top:100px;
-}
-.site-banner hgroup hr{
-	border-color:#C59966;
-	border-width:10px;
-	width:125px;
-}
-.site-banner hgroup h1{
-	font-family:fantasy;
-	font-size:70px;
-	color:white;
-	margin:10px;
+.content{
+	height:1000px;
+	width:70%;
+	min-width: 600px;
+	background: white;
+	border-right: 1px solid #dddddd;
+	box-shadow: 2px 0 1px #dbdbdb;
+	padding: 0 20px 0 68px;
 }
 
 
-/* Site footer */
-
-.site-footer{
-	border-top: 1px solid #e8e8e8;
-	padding: 20px 0;
+/* Index list */
+.posts .post-item{
+	padding-top: 10px;	
+	border-bottom: 1px solid #eeeeee;
+	margin-bottom: 10px;
 }
-.site-footer .site-footer-content{
-	width: 860px;
-	margin: 0 auto;
-}
-.site-footer,
-.site-footer a{
-	color:#ddd;
-}
-
-
-/* Page Content styles */
-/* ----------------------------------------------------------*/
-
-.site-content {
-	width: 860px;
-	margin: 0 auto;
-}
-
-/* Post List styles */
-.posts{
-	margin:40px 0;
-}
-.posts li{
-	margin-bottom:40px;
-}
-.posts li a{
-	display:block;
-	padding:25px;
-	border:1px solid #CCC;
-}
-.posts li a:hover{
-	background:#FCFCFC;
+.posts .post-item .post-link{
+	color:#333;
+	display: block;
+	border-bottom: 1px solid #f5f5f5;
+	padding-bottom: 20px;
 }
 .post-title{
-	font-size:18px;
-	color:#c59a6d;
-	margin:0;
-	font-weight:bold;
+	font-size: 24px;
+	line-height: 1.6;
 }
 .post-date{
-	display:block;
-	color:#1a1918;
-	font-size:14px;
-	padding-top:25px;
+	color:#dddddd;
+	font-size: 12px;
+	line-height: 1.6;
+}
+.post-desc{
+	font-size: 14px;
+	line-height: 1.6;
+	padding-top: 10px;
 }
