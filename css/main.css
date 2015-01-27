@@ -25,7 +25,7 @@ a,a:hover{text-decoration:none;}
 	top: 0px;
 	height:1000px;
 	width:30px;
-	padding: 0 9px;
+	padding: 9px;
 }
 .content{
 	height:1000px;
@@ -63,4 +63,8 @@ a,a:hover{text-decoration:none;}
 	font-size: 14px;
 	line-height: 1.6;
 	padding-top: 10px;
+}
+.post-content{
+	padding:20px 0;
+	line-height: 1.6;
 }
