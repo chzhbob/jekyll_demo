@@ -7,39 +7,13 @@ html,body{
 .wrap:before,
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
-<<<<<<< HEAD
 .wrap { zoom: 1;}
 .list-unstyled {padding-left: 0;list-style: none;}
 a,a:hover{text-decoration:none;}
-=======
-.wrap {
-  max-width: 860px;
-  padding: 0 30px;
-  margin: 0 auto;
-  zoom: 1;
-}
-
-.list-unstyled {
-	padding-left: 0;
-	list-style: none;
-}
-
-a,
-a:hover{
-	text-decoration:none;
-}
-.pull-left{
-	float:left;
-}
-.pull-right{
-	float:right;
-}
->>>>>>> 3c86ff29edf78d5edc344f501a993e26167c3ebd
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
-<<<<<<< HEAD
 /* Site left */
 .main-content{
 	
@@ -61,63 +35,9 @@ a:hover{
 	border-right: 1px solid #dddddd;
 	box-shadow: 2px 0 1px #dbdbdb;
 	padding: 0 20px 0 68px;
-=======
-/* Site header */
-
-.site-banner {
-	background:#2c2b2b;
-}
-.site-banner .site-banner-content{
-	width:860px;
-	height:42px;
-	margin:0 auto;
-	padding-top:20px;
-}
-.site-banner nav{
-	float:right;
-}
-.site-banner nav li{
-	float:left;
-}
-.site-banner nav li a{
-	display:block;
-	border:1px solid #2c2b2b;
-	color:#FFFFFF;
-	padding:5px 10px;
-	margin:0 5px;
-}
-.site-banner nav li.active a,
-.site-banner nav li a:hover{
-	color:#C59966;
-	border-color:#FFFFFF;
-}
-.site-banner hgroup{
-	text-align:center;
-	padding-top:100px;
-}
-.site-banner hgroup hr{
-	border-color:#C59966;
-	border-width:10px;
-	width:125px;
-}
-.site-banner hgroup h1{
-	font-family:fantasy;
-	font-size:70px;
-	color:white;
-	margin:10px;
 }
 
 
-/* Site footer */
-
-.site-footer{
-	border-top: 1px solid #e8e8e8;
-	padding: 20px 0;
->>>>>>> 3c86ff29edf78d5edc344f501a993e26167c3ebd
-}
-
-
-<<<<<<< HEAD
 /* Index list */
 .posts .post-item{
 	padding-top: 10px;	
@@ -129,23 +49,6 @@ a:hover{
 	display: block;
 	border-bottom: 1px solid #f5f5f5;
 	padding-bottom: 20px;
-=======
-/* Post List styles */
-.posts{
-	margin:40px 0;
-}
-.posts li{
-	margin-bottom:40px;
-}
-.posts li a{
-	display:block;
-	padding:25px;
-	border:1px solid #CCC;
-	background:url("../images/item-bg.png") right bottom no-repeat;
-}
-.posts li a:hover{
-	background-color:#FCFCFC;
->>>>>>> 3c86ff29edf78d5edc344f501a993e26167c3ebd
 }
 .post-title{
 	font-size: 24px;
