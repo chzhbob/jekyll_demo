@@ -13,6 +13,25 @@ description: 本日志的一些维护方式~
 	<li>git push origin gh-pages</li>
 </ol>
 
+删除文件
+<ol>
+	<li>git rm -rf 目录名</li>
+	<li>git commit...</li>
+</ol>
+
+revert文件
+<ol>
+	<li>git log index.js</li>
+	<li>在log列表查到commit的id，例如 c6c8f555535e2360a1b5576c9f5d907f7d45723c</li>
+	<li>git reset  c6c8f555535e2360a1b5576c9f5d907f7d45723c index.js</li>
+	<li>编辑</li>
+</ol>
+
+错手add了怎么办？
+<ol>
+	<li>git reset即可</li>
+</ol>
+
 windows本地jekyll安装
 <ol>
 	<li>
