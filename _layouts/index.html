@@ -19,9 +19,19 @@
     				</li>
        			</ul>
     		</section>
-    		<section class="content">
+    		<section id="main_content" class="content">
     			{{ content }}
     		</section>
     	</section>
+
+        <script type="text/javascript">
+            $(function(){
+                $("#main_content").css("min-height", $(window).height());
+                window.resize = function(){
+                    console.log("yes");
+                    $("#main_content").css("min-height", $(window).height());
+                };
+            });
+        </script>
     </body>
 </html>
