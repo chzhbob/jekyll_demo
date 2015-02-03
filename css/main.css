@@ -3,13 +3,14 @@ html,body{
 	font-family:'微软雅黑';
 	color:#333;
 	background: url("../img/bg.png");
+	font-size: 14px;
 }
 .wrap:before,
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap { zoom: 1;}
 .list-unstyled {padding-left: 0;list-style: none;}
-a,a:hover{text-decoration:none;}
+a,a:hover{text-decoration:none;color:rgb(0, 148, 255);}
 pre{
 	font-family: 'Consolas', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
 	font-size: 13px;
@@ -75,7 +76,36 @@ pre{
 	line-height: 1.6;
 	padding-top: 10px;
 }
+
+/* post-content */
 .post-content{
 	padding:20px 0;
 	line-height: 1.6;
+}
+
+.post-content h2{
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+.post-content ol{
+	list-style: decimal inside;
+}
+.post-content ul{
+	list-style: none;
+}
+.post-content section{
+	padding: 5px 0;
+}
+.post-content .tips{
+	color: #ddd;
+}
+.post-content .tips a{
+	color: #ddd;
+	text-decoration: underline;
+}
+.post-content .refer{
+	border:1px solid #ddd;
+	background: #FFFBCD;
+	padding: 10px 15px;
 }

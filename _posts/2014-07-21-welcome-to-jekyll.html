@@ -1,39 +1,52 @@
 ---
 layout: post
-title: github一些简单命令
-description: 本日志的一些维护方式~
+title: Github一些基础命令
+description: 提醒作者别忘了本日志的维护方式~
 ---
-      
+<section>
+	<h2>提交代码：</h2>
+	<ol>
+		<li>git add .</li>
+		<li>git commit -m "YOUR COMMENT"</li>
+		<li>git push origin gh-pages</li>
+	</ol>
+</section>
 
-<p>
-提交代码：
-<ol>
-	<li>git add .</li>
-	<li>git commit -m "YOUR COMMENT"</li>
-	<li>git push origin gh-pages</li>
-</ol>
+<section>
+	<h2>删除文件</h2>
+	<ol>
+		<li>git rm -rf 目录名</li>
+		<li>git commit -m "YOUR COMMENT"</li>
+	</ol>
+</section>
 
-删除文件
-<ol>
-	<li>git rm -rf 目录名</li>
-	<li>git commit...</li>
-</ol>
+<section>
+	<h2>revert文件</h2>
+	<ol>
+		<li>git log index.js</li>
+		<li>在log列表查到commit的id，例如 c6c8f555535e2360a1b5576c9f5d907f7d45723c</li>
+		<li>git reset c6c8f555535e2360a1b5576c9f5d907f7d45723c index.js</li>
+		<li>编辑</li>
+	</ol>
+</section>
 
-revert文件
-<ol>
-	<li>git log index.js</li>
-	<li>在log列表查到commit的id，例如 c6c8f555535e2360a1b5576c9f5d907f7d45723c</li>
-	<li>git reset  c6c8f555535e2360a1b5576c9f5d907f7d45723c index.js</li>
-	<li>编辑</li>
-</ol>
+<section>
+	<h2>错手add了怎么办？</h2>
+	<ol>
+		<li>git reset即可</li>
+	</ol>
+</section>
 
-错手add了怎么办？
-<ol>
-	<li>git reset即可</li>
-</ol>
-
-这里有一份非常棒的入门教程，很适合我们这类初学者快速入门
-<a href="http://rogerdudler.github.io/git-guide/index.zh.html">git - 简明指南</a>
+<section class="refer">
+	<p>
+		这里有一份非常棒的入门教程，很适初学者快速入门<a target="_blank" href="http://rogerdudler.github.io/git-guide/index.zh.html">《git - 简明指南》</a>
+	</p>
+	<p>
+		<span class="tips">那个...据说要<a target="_blank" href="https://github.com/goagent/goagent">翻墙</a>阅读</span>
+	</p>
+		
+	
+</section>
 
 windows本地jekyll安装
 <ol>
@@ -51,7 +64,7 @@ windows本地jekyll安装
 		但是发现命令行报错，在stackoverflow上查到了<a href="http://stackoverflow.com/questions/16498287/jekyll-liquid-exception-cannot-load-such-file-yajl-2-0-yajl" target="_blank">解决办法</a>，就是使用 ruby v 1.9.3 并且安装rouge，即可~终于可以本地调试jekyll了~
 	</li>
 </ol>
-</p>
+
 
     <div id="disqus_thread"></div>
     <script type="text/javascript">
