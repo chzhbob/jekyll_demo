@@ -61,11 +61,67 @@ title: DEMO
 				</ul>
   			</section>
   		</section>
-  		<p class="post-desc">文档说<a target="_blank" href="http://www.w3school.com.cn/cssref/selector_first-child.asp"><i>所有主流浏览器都支持 :first-child 选择器</i></a>，但是<a target="_blank" href="http://www.w3school.com.cn/cssref/selector_last-child.asp"><i>所有主流浏览器均支持 :last-child 选择器，<strong>除了IE8及更早的版本</strong>。</i></a>因此last-child与first-child的兼容范围是不一样的，特例是IE8。</p>
+  		<p style="padding-bottom:20px;" class="post-desc">文档说<a target="_blank" href="http://www.w3school.com.cn/cssref/selector_first-child.asp"><i>所有主流浏览器都支持 :first-child 选择器</i></a>，但是<a target="_blank" href="http://www.w3school.com.cn/cssref/selector_last-child.asp"><i>所有主流浏览器均支持 :last-child 选择器，<strong>除了IE8及更早的版本</strong>。</i></a>因此last-child与first-child的兼容范围是不一样的，特例是IE8。</p>
   	</li>
 
-  
 
+
+	<li class="post-item">
+  		<h1 class="post-title">那些自带的字体</h1>
+  		<section class="demo-item wrap">
+  			<section class="code" style="width:350px;">
+{% highlight css %}
+/* 网页字体通常分为5类 */
+sans-serif /* (无衬线)  */
+serif /* (衬线)  */
+monospace /* (等宽)  */
+fantasy /* (梦幻)  */
+cuisive /* (草体)  */
+/* 无衬线类 */
+Helvetica, sans-serif
+Arial, sans-serif
+Lucida Grande, sans-serif
+Verdana,sans-serif
+Tahoma, sans-serif
+Trebuchet MS, sans-serif
+/* 衬线类 */
+Georgia, serif
+Times, serif
+/* 中文字体 */
+'宋体'
+'微软雅黑'
+'华文细黑'
+'黑体'
+{% endhighlight %} 
+  			</section>
+  			<section class="view" style="padding-top:25px;float:left;">
+  				<ul class="font-family-demo">
+					<li style="font-family: sans-serif;"><span class="test-font">你好 hello world</span> sans-serif</li>
+					<li style="font-family: serif;"><span class="test-font">你好 hello world</span>  serif </li>
+					<li style="font-family: monospace;"><span class="test-font">你好 hello world</span>   monospace </li>
+					<li style="font-family: fantasy;"><span class="test-font">你好 hello world</span>    fantasy </li> 
+					<li style="font-family: cuisive;"><span class="test-font">你好 hello world</span>   cuisive </li>
+					<li>&nbsp;</li>
+					<li style="font-family: Helvetica, sans-serif;"><span class="test-font">你好 hello world</span>   Helvetica </li>
+					<li style="font-family: Arial, sans-serif;"><span class="test-font">你好 hello world</span>   Arial </li>
+					<li style="font-family: 'Lucida Grande', sans-serif;"><span class="test-font">你好 hello world</span>   Lucida Grande </li>
+					<li style="font-family: Verdana,sans-serif;"><span class="test-font">你好 hello world</span> Verdana </li> 
+					<li style="font-family: Tahoma, sans-serif;"><span class="test-font">你好 hello world</span> Tahoma </li>
+					<li style="font-family: 'Trebuchet MS', sans-serif;"><span class="test-font">你好 hello world</span> Trebuchet MS </li>
+					<li>&nbsp;</li>
+					<li style="font-family: Georgia, serif;"><span class="test-font">你好 hello world</span> Georgia </li>
+					<li style="font-family: Times, serif;"><span class="test-font">你好 hello world</span> Times </li>
+					<li>&nbsp;</li>
+					<li style="font-family: 宋体"><span class="test-font">你好 hello world</span> 宋体 </li>
+					<li style="font-family: 微软雅黑"><span class="test-font">你好 hello world</span> 微软雅黑 </li>
+					<li style="font-family: 华文细黑"><span class="test-font">你好 hello world</span> 华文细黑 </li>
+					<li style="font-family: 黑体"><span class="test-font">你好 hello world</span> 黑体 </li>
+				</ul>
+  			</section>
+  		</section>
+  		<input id="font_family_input" type="text" value="" placeholder="输入内容查看效果..." />
+  	</li>
+  
 </ul>
 
 <style type="text/css">
@@ -122,4 +178,30 @@ title: DEMO
 }
 
 /*******************end of last child demo*******************/
+
+/*******************font family demo*******************/
+.font-family-demo{
+	list-style: none;
+	text-align: left;
+	padding-left: 20px;
+}
+.font-family-demo li{
+	font-size: 13px;
+	letter-spacing: 0.015em;
+	line-height: 120%;
+}
+
+/*******************end of font family demo*******************/
+
 </style>
+
+
+<script type="text/javascript">
+	
+	$(function(){
+		$("#font_family_input").keyup(function(){
+			$(".font-family-demo .test-font").html($(this).val());
+		});
+	});
+
+</script>
