@@ -107,3 +107,6 @@ pre{
 	background: #FFFBCD;
 	padding: 10px 15px;
 }
+.ps p{
+	padding: 10px 0;
+}
