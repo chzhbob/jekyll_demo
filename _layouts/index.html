@@ -27,10 +27,10 @@
         <script type="text/javascript">
             $(function(){
                 $("#main_content").css("min-height", $(window).height());
-                window.resize = function(){
+                $(window).resize(function(){
                     console.log("yes");
                     $("#main_content").css("min-height", $(window).height());
-                };
+                });
             });
         </script>
     </body>

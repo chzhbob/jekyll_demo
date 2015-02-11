@@ -40,7 +40,6 @@ pre{
 	padding: 9px;
 }
 .content{
-	height:1000px;
 	width:70%;
 	min-width: 600px;
 	background: white;
@@ -54,7 +53,6 @@ pre{
 .posts .post-item{
 	padding-top: 10px;	
 	border-bottom: 1px solid #eeeeee;
-	margin-bottom: 10px;
 }
 .posts .post-item .post-link{
 	color:#333;
