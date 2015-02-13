@@ -67,7 +67,7 @@ title: DEMO
 
 
 	<li class="post-item">
-  		<h1 class="post-title">那些自带的字体</h1>
+  		<h1 class="post-title">自带字体速查</h1>
   		<section class="demo-item wrap">
   			<section class="code" style="width:350px;">
 {% highlight css %}
@@ -119,7 +119,9 @@ Times, serif
 				</ul>
   			</section>
   		</section>
-  		<input id="font_family_input" type="text" value="" placeholder="输入内容查看效果..." />
+  		<section class="font-family-input-wrapper">
+  			<input id="font_family_input" class="font-family-input" type="text" value="" placeholder="输入内容查看效果..." />	
+  		</section>
   	</li>
   
 </ul>
@@ -190,6 +192,17 @@ Times, serif
 	letter-spacing: 0.015em;
 	line-height: 120%;
 }
+.font-family-input-wrapper{
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 5px;
+}
+.font-family-input{
+	width: 100%;
+	border: 0px;
+	font-size: 14px;
+	outline: 0px;
+}
 
 /*******************end of font family demo*******************/
 
@@ -200,8 +213,18 @@ Times, serif
 	
 	$(function(){
 		$("#font_family_input").keyup(function(){
-			$(".font-family-demo .test-font").html($(this).val());
+			$(".font-family-demo .test-font").html(htmlspecialchars($(this).val()));
 		});
+
+		function htmlspecialchars(str)  {  
+		    str = str.replace(/&/g, '&amp;');
+		    str = str.replace(/</g, '&lt;');
+		    str = str.replace(/>/g, '&gt;');
+		    str = str.replace(/"/g, '&quot;');
+		    str = str.replace(/'/g, '&#039;');
+		    return str;
+		}
+
 	});
 
 </script>

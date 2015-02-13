@@ -1,0 +1,22 @@
+---
+layout: post
+title: js是单线程的吗？
+description: 之前的一个疑问，细细一查原来是自己知识体系一个巨大的漏洞
+---
+
+<p>js是单线程的吗？是的。</p>
+
+<p>无论哪一个瞬间，都只有一段js代码在执行。</p>
+
+<p>那异步回调、setTimeout这种函数是怎么实现的呢？</p>
+
+<p>这就是由js的另外一个数据结构实现的：Event Loop线程</p>
+
+<p>Event Loop的出现，让单线程的javascript不再因为耗时任务而阻塞。每当javascript需要进行等待click事件、网络请求、setTimeout等耗时任务时，javascript线程就会把这件耗时的任务丢给Event Loop，并告诉Event Loop回调函数。</p>
+
+<p>当javascript主线程把同步任务都完成后，就会找Event Loop轮询事件，并执行对应的回调函数。</p>
+
+<a href="http://www.cnblogs.com/Mainz/p/3552717.html">参考文章《Javascript是单线程的深入分析》</a>
+<a href="http://www.ruanyifeng.com/blog/2014/10/event-loop.html">参考文章《JavaScript 运行机制详解：再谈Event Loop》</a>
+
+<p>HTML5标准规定了setTimeout()的第二个参数的最小值（最短间隔），不得低于4毫秒，如果低于这个值，就会自动增加。</p>
