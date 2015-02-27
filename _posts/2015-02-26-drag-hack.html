@@ -1,0 +1,35 @@
+---
+layout: post
+title: 通过拖拽劫持进行数据窃取
+description: 说白了，防止你的网站被iframe(frame busting)
+---
+
+<p>看书看到一种hack方法，Drag & Drop Hack</p>
+
+<p>入侵方法是以游戏的方式引诱用户对不可见的内容进行拖拽，将iframe中的内容拖拽到攻击者的页面中，从而窃取数据</p>
+
+<p>本质上，是利用用户拖拽操作来越过浏览器同源策略壁垒的攻击方式</p>
+
+<p>其实防御的方式也很简单，只有网站无法被iframe，自然就无法施行</p>
+
+<p>对几款邮箱产品做了iframe测试</p>
+
+<ul>
+	<li>qq、126、163邮箱进行了页面判断，如果是被iframe了，最上层iframe跳转</li>
+	<li>新浪、阿里云邮箱没做判断，可以被iframe</li>
+	<li>gmail设置http头X-Frame-Options为SAMEORIGIN，iframe直接空白无反应。并且js报错：
+		<section class="refer">
+			<p>
+				Refused to display 'https://mail.google.com/' in a frame because it set 'X-Frame-Options' to 'SAMEORIGIN'.
+			</p>
+		</section>
+	</li>
+</ul>
+
+<ul>
+	<li>综上，防御方式至少有2种</li>
+	<li>1. 判断页面是否是top</li>
+	<li>2. 在http头加上X-Frame-Options限制</li>
+</ul>
+
+<p>secure by default</p>

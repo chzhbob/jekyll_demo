@@ -7,4 +7,8 @@ title: About
 <h1>asdjl1
 </h1>
 
-<a href="djt.qq.com">click</a>
+<a href="baidu.com">click</a>
+
+<script type="text/javascript">
+	
+</script>

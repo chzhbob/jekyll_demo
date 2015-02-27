@@ -221,7 +221,9 @@ Times, serif
 		    str = str.replace(/</g, '&lt;');
 		    str = str.replace(/>/g, '&gt;');
 		    str = str.replace(/"/g, '&quot;');
-		    str = str.replace(/'/g, '&#039;');
+		    str = str.replace(/'/g, '&#x27;');
+		    str = str.replace(/\//g, '&#x2F;');
+
 		    return str;
 		}
 
