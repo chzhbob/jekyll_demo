@@ -1,0 +1,27 @@
+.content{
+	width: 100%;
+	background: #dddddd;
+}
+.channel-list li a{
+	border: 5px solid #000;
+	position: relative;
+	display: block;
+	color: black;
+	text-align: center;
+}
+
+.channel-list li a h1{
+	position: absolute;
+	top:20px;
+	left: 0px;
+	font-size: 22px;
+	z-index: 1;
+	text-align: center;
+	width: 100%;
+}
+.channel-list li a h1 span{
+	color: red;
+}
+.channel-list li a img{
+	max-width: 100%;
+}
