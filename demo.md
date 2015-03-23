@@ -119,9 +119,24 @@ Times, serif
 				</ul>
   			</section>
   		</section>
-  		<section class="font-family-input-wrapper">
+  		<section class="font-family-input-wrapper" style="margin-bottom:20px;">
   			<input id="font_family_input" class="font-family-input" type="text" value="" placeholder="输入内容查看效果..." />	
   		</section>
+  	</li>
+
+  	<li class="post-item">
+  		<h1 class="post-title">无刷新页面更改URL</h1>
+  		<section class="demo-item wrap">
+  			<section class="code" style="width:350px;">
+{% highlight js %}
+history.pushState('','','/about/');
+{% endhighlight %} 
+  			</section>
+  			<section class="view" style="">
+  				<a href="javascript:void(0)" onclick="history.pushState('','','/about/');">点击 (注意URL栏的变化)</a>
+  			</section>
+  		</section>
+  		<p style="padding-bottom:20px;">HTML5为history对象添加了两个新方法，history.pushState() 和 history.replaceState()，用来在浏览历史中添加和修改记录。所有主流浏览器都支持该方法。</p>
   	</li>
   
 </ul>
