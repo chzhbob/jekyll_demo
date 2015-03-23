@@ -138,6 +138,29 @@ history.pushState('','','/about/');
   		</section>
   		<p style="padding-bottom:20px;">HTML5为history对象添加了两个新方法，history.pushState() 和 history.replaceState()，用来在浏览历史中添加和修改记录。所有主流浏览器都支持该方法。</p>
   	</li>
+
+  	<li class="post-item">
+  		<script type="text/javascript" src="/js/zepto.blink.js"></script>
+  		<h1 class="post-title">MONO闪闪的文字效果</h1>
+  		<section class="demo-item wrap">
+  			<section class="code" style="width:350px;">
+			{% highlight js %}
+$(".blink-text").blink({'duration':3});
+			{% endhighlight %} 
+  			</section>
+  			<section class="view" style="">
+  				<section class="blink-wrapper">
+					<h1 class="blink-text">世间也需要没用的东西，如果一切事物都必须有其意义，会让人喘不过气来</h1>
+				</section>
+  			</section>
+  		</section>
+  		<script type="text/javascript">
+  			$(function(){
+				$(".blink-text").blink({'duration':3});
+			});
+  		</script>
+  		<p style="padding-bottom:20px;">最近下载了叫MONO的APP来用，被清新了一脸啊好像回到了16岁，尤其是里面那个文字闪闪效果让人忍不住要舔屏幕了= =|||<br />于是乎用JS模拟实现了个，<a href="https://github.com/chzhbob/blink" target="_blank">源码在这里</a>，jQuery zepto通用，唯一的参数duration用于控制闪出时间的长短，单位是s(秒)</p>
+  	</li>
   
 </ul>
 
@@ -220,6 +243,21 @@ history.pushState('','','/about/');
 }
 
 /*******************end of font family demo*******************/
+
+/*******************blink demo*******************/
+.blink-text{
+	font-size: 22px;
+	line-height: 1.8;
+	font-weight: normal;
+	color: white;
+	padding: 50px 50px 0 50px;
+}
+.blink-wrapper{
+	background: url("/img/blink-bg.jpg") center center;
+	background-size: cover;
+}
+
+/*******************end of blink demo*******************/
 
 </style>
 
