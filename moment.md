@@ -30,7 +30,7 @@ title: THE Moment
 				document.addEventListener('touchstart', touchSatrtFunc, false);  
 				function touchSatrtFunc(evt) {
 					if(t == 0){
-						alert("play!");
+						alert("play!1");
 						myAuto[0].pause()
 						myAuto[0].play();
 						t++;
