@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	useLargeImages="2048"
+	useSmallImages="800"
+	resizeOnImport="false"
+	galleryTitle="The Moment"
+	showOpenButton="true"
+	useThumbDots="false"
+	useFullscreenExpand="false"
+
+>
+  <image imageURL="images/1.jpg"
+	thumbURL="thumbs/1.jpg"
+	linkURL="images/1.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\1.jpg">
+    <title><![CDATA[1]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2.jpg"
+	thumbURL="thumbs/2.jpg"
+	linkURL="images/2.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\2.jpg">
+    <title><![CDATA[2]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/3.jpg"
+	thumbURL="thumbs/3.jpg"
+	linkURL="images/3.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\3.jpg">
+    <title><![CDATA[3]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/4.jpg"
+	thumbURL="thumbs/4.jpg"
+	linkURL="images/4.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\4.jpg">
+    <title><![CDATA[4]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/5.jpg"
+	thumbURL="thumbs/5.jpg"
+	linkURL="images/5.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\5.jpg">
+    <title><![CDATA[5]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/6.jpg"
+	thumbURL="thumbs/6.jpg"
+	linkURL="images/6.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\6.jpg">
+    <title><![CDATA[6]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/7.jpg"
+	thumbURL="thumbs/7.jpg"
+	linkURL="images/7.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\7.jpg">
+    <title><![CDATA[7]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/8.jpg"
+	thumbURL="thumbs/8.jpg"
+	linkURL="images/8.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\8.jpg">
+    <title><![CDATA[8]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/9.jpg"
+	thumbURL="thumbs/9.jpg"
+	linkURL="images/9.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\9.jpg">
+    <title><![CDATA[9]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/10.jpg"
+	thumbURL="thumbs/10.jpg"
+	linkURL="images/10.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\10.jpg">
+    <title><![CDATA[10]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/11.jpg"
+	thumbURL="thumbs/11.jpg"
+	linkURL="images/11.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\11.jpg">
+    <title><![CDATA[11]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/12.jpg"
+	thumbURL="thumbs/12.jpg"
+	linkURL="images/12.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\12.jpg">
+    <title><![CDATA[12]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/13.jpg"
+	thumbURL="thumbs/13.jpg"
+	linkURL="images/13.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\13.jpg">
+    <title><![CDATA[13]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/14.jpg"
+	thumbURL="thumbs/14.jpg"
+	linkURL="images/14.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\14.JPG">
+    <title><![CDATA[14]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/15.jpg"
+	thumbURL="thumbs/15.jpg"
+	linkURL="images/15.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\15.JPG">
+    <title><![CDATA[15]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/16.jpg"
+	thumbURL="thumbs/16.jpg"
+	linkURL="images/16.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\16.jpg">
+    <title><![CDATA[16]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/17.jpg"
+	thumbURL="thumbs/17.jpg"
+	linkURL="images/17.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\17.jpg">
+    <title><![CDATA[17]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/18.jpg"
+	thumbURL="thumbs/18.jpg"
+	linkURL="images/18.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\18.jpg">
+    <title><![CDATA[18]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/19.jpg"
+	thumbURL="thumbs/19.jpg"
+	linkURL="images/19.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\19.jpg">
+    <title><![CDATA[19]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20.jpg"
+	thumbURL="thumbs/20.jpg"
+	linkURL="images/20.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\20.jpg">
+    <title><![CDATA[20]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/21.jpg"
+	thumbURL="thumbs/21.jpg"
+	linkURL="images/21.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\21.jpg">
+    <title><![CDATA[21]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/22.jpg"
+	thumbURL="thumbs/22.jpg"
+	linkURL="images/22.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\22.jpg">
+    <title><![CDATA[22]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/23.jpg"
+	thumbURL="thumbs/23.jpg"
+	linkURL="images/23.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\23.jpg">
+    <title><![CDATA[23]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/24.jpg"
+	thumbURL="thumbs/24.jpg"
+	linkURL="images/24.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\24.jpg">
+    <title><![CDATA[24]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/25.jpg"
+	thumbURL="thumbs/25.jpg"
+	linkURL="images/25.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\25.jpg">
+    <title><![CDATA[25]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/26.jpg"
+	thumbURL="thumbs/26.jpg"
+	linkURL="images/26.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\26.jpg">
+    <title><![CDATA[26]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/27.jpg"
+	thumbURL="thumbs/27.jpg"
+	linkURL="images/27.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\27.jpg">
+    <title><![CDATA[27]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/28.jpg"
+	thumbURL="thumbs/28.jpg"
+	linkURL="images/28.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\28.jpg">
+    <title><![CDATA[28]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/29.jpg"
+	thumbURL="thumbs/29.jpg"
+	linkURL="images/29.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\29.jpg">
+    <title><![CDATA[29]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/30.jpg"
+	thumbURL="thumbs/30.jpg"
+	linkURL="images/30.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\30.jpg">
+    <title><![CDATA[30]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/31.jpg"
+	thumbURL="thumbs/31.jpg"
+	linkURL="images/31.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\31.jpg">
+    <title><![CDATA[31]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/32.jpg"
+	thumbURL="thumbs/32.jpg"
+	linkURL="images/32.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\32.jpg">
+    <title><![CDATA[32]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/33.jpg"
+	thumbURL="thumbs/33.jpg"
+	linkURL="images/33.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\33.jpg">
+    <title><![CDATA[33]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/34.jpg"
+	thumbURL="thumbs/34.jpg"
+	linkURL="images/34.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\34.jpg">
+    <title><![CDATA[34]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/35.jpg"
+	thumbURL="thumbs/35.jpg"
+	linkURL="images/35.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\35.jpg">
+    <title><![CDATA[35]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/36.jpg"
+	thumbURL="thumbs/36.jpg"
+	linkURL="images/36.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\36.jpg">
+    <title><![CDATA[36]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/37.jpg"
+	thumbURL="thumbs/37.jpg"
+	linkURL="images/37.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\37.jpg">
+    <title><![CDATA[37]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/38.jpg"
+	thumbURL="thumbs/38.jpg"
+	linkURL="images/38.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\38.jpg">
+    <title><![CDATA[38]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/39.jpg"
+	thumbURL="thumbs/39.jpg"
+	linkURL="images/39.jpg"
+	linkTarget="_blank"
+	sourcePath="C:\Users\bob\Desktop\done\39.jpg">
+    <title><![CDATA[39]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>
