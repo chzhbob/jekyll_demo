@@ -30,9 +30,9 @@ title: THE Moment
 				document.addEventListener('touchstart', touchSatrtFunc, false);  
 				function touchSatrtFunc(evt) {
 					if(t == 0){
-						myAuto[0].pause()
-						myAuto[0].play();
-						t++;
+						// myAuto[0].pause()
+						// myAuto[0].play();
+						// t++;
 					}
 					
 				}
