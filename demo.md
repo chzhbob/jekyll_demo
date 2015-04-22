@@ -179,6 +179,40 @@ $(".blink-text").blink({'duration':3});
   		</script>
   		<p style="padding-bottom:20px;">最近下载了叫MONO的APP来用，被清新了一脸啊好像回到了16岁，尤其是里面那个文字闪闪效果让人忍不住要舔屏幕了= =|||<br />于是乎用JS模拟实现了个，<a href="https://github.com/chzhbob/blink" target="_blank">源码在这里</a>，jQuery zepto通用，唯一的参数duration用于控制闪出时间的长短，单位是s(秒)</p>
   	</li>
+
+  	<li class="post-item">
+  		<h1 class="post-title">keyframe动画——loading</h1>
+  		<section class="demo-item wrap">
+  			<section class="code" style="width:350px;">
+{% highlight css %}  
+@-webkit-keyframes animateHeart {
+	0% {
+		-webkit-transform: scale(1)
+	}
+	5% {
+		-webkit-transform: scale(1.2)
+	}
+	10% {
+		-webkit-transform: scale(1.1)
+	}
+	15% {
+		-webkit-transform: scale(1.3)
+	}
+	50% {
+		-webkit-transform: scale(1)
+	}
+	100% {
+		-webkit-transform: scale(1)
+	}
+}
+{% endhighlight %} 
+  			</section>
+  			<section class="view" style="padding-top:75px;">
+  				<section id="loading" class="running">
+				</section>
+  			</section>
+  		</section>
+  	</li>
   
 </ul>
 
@@ -300,6 +334,47 @@ $(".blink-text").blink({'duration':3});
 }
 
 /*******************end of blink demo*******************/
+
+/*******************loading demo*******************/
+.loading-wrapper{
+
+}
+#loading{
+	width: 50px;
+	height: 50px;
+	background: #FFF;
+	
+	border-right: 2px solid #43bf89;
+	border-bottom: 2px solid #ffffff;
+	
+	
+	border-radius: 50%;
+}
+#loading.running{
+	-webkit-animation:animateLoading linear 1s infinite;
+	-moz-animation:animateLoading linear 1s infinite;
+}
+
+@-webkit-keyframes animateLoading {
+	0% {
+		-webkit-transform: rotate(-135deg);
+	}
+	
+	100% {
+		-webkit-transform: rotate(225deg);
+	}
+}
+
+@-moz-keyframes animateLoading {
+	0% {
+		-moz-transform: rotate(-135deg);
+	}
+	
+	100% {
+		-moz-transform: rotate(225deg);
+	}
+}
+/*******************end of loading demo*******************/
 
 </style>
 
