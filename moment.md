@@ -26,9 +26,15 @@ title: THE Moment
 			
 			$(function() {
 				var myAuto = $('#myaudio');
+				var t = 0;
 				document.addEventListener('touchstart', touchSatrtFunc, false);  
 				function touchSatrtFunc(evt) {
-					myAuto[0].play();
+					if(t == 0){
+						myAuto[0].pause()
+						myAuto[0].play();
+						t++;
+					}
+					
 				}
 				
 			});
