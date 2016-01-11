@@ -38,15 +38,15 @@
 		</script>
 		<div id="juicebox-container"></div>	
 		<!--END JUICEBOX EMBED-->		
-	
+		<div style="display:none">
 		<audio id="myaudio" src="shdqc.mp3" controls="controls" loop="false"
 			hidden="true"></audio>
+		</div>
 			
 			<script type="text/javascript"> 
-			myAuto = $('#myaudio');
 			
 			$('body').bind('touchstart', function(){
-				myaudio[0].play();
+				$('#myaudio')[0].play();
 			});
 
 			</script> 
