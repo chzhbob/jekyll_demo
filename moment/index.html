@@ -25,6 +25,8 @@
 		</style>
 	</head>
 	<body>
+		<div id="juicebox-container"></div>	
+
 		<!--START JUICEBOX EMBED-->
 		<script src="jbcore/juicebox.js"></script>
 		<script src="jquery-2.1.1.min.js"></script>
@@ -36,19 +38,19 @@
 				backgroundColor: '#222222'
 			});
 		</script>
-		<div id="juicebox-container"></div>	
+		
 		<!--END JUICEBOX EMBED-->		
 		<div style="display:none">
 		<audio id="myaudio" src="shdqc.mp3" controls="controls" loop="false"
 			hidden="true"></audio>
 		</div>
 			
-			<script type="text/javascript"> 
-			
-			$('body').bind('touchstart', function(){
-				$('#myaudio')[0].play();
-			});
+		<script type="text/javascript"> 
+		
+		$('body').bind('touchstart', function(){
+			$('#myaudio')[0].play();
+		});
 
-			</script> 
+		</script> 
 	</body>
 </html>
